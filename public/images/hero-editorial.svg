@@ -1,0 +1,17 @@
+<svg width="960" height="720" viewBox="0 0 960 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Editorial architecture visual">
+  <rect width="960" height="720" fill="#EDE9E1"/>
+  <rect x="48" y="48" width="864" height="624" rx="28" fill="#F7F5F0" stroke="#D8D2C8" stroke-width="1.5"/>
+  <path d="M120 560V180" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M840 560V240" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M120 560H840" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M220 520C220 360 320 260 480 260" stroke="#5C1A2E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M320 560C320 430 390 360 520 360" stroke="#1E3D32" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="520" cy="360" r="8" fill="#D4A84B"/>
+  <rect x="620" y="300" width="160" height="220" rx="8" fill="#FFFFFF" stroke="#D8D2C8"/>
+  <path d="M650 360H750" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M650 400H720" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M650 440H740" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M650 480H710" stroke="#D8D2C8" stroke-width="1.2"/>
+  <text x="120" y="130" fill="#1A1A1A" font-family="Georgia, serif" font-size="34">Operational system</text>
+  <text x="120" y="168" fill="#5C5C5C" font-family="Arial, sans-serif" font-size="16" letter-spacing="2">PROCESS � ROLES � CONTROL</text>
+</svg>

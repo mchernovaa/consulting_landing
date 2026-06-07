@@ -1,0 +1,12 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Knowledge base visual">
+  <rect width="640" height="480" fill="#EDE9E1"/>
+  <rect x="96" y="72" width="180" height="336" rx="10" fill="#FFFFFF" stroke="#D8D2C8"/>
+  <rect x="300" y="120" width="244" height="288" rx="10" fill="#FFFFFF" stroke="#D8D2C8"/>
+  <path d="M132 132H240" stroke="#D8D2C8"/>
+  <path d="M132 172H220" stroke="#D8D2C8"/>
+  <path d="M132 212H236" stroke="#D8D2C8"/>
+  <path d="M336 168H520" stroke="#5C1A2E" stroke-width="2"/>
+  <path d="M336 220H500" stroke="#D8D2C8"/>
+  <path d="M336 272H480" stroke="#D8D2C8"/>
+  <circle cx="422" cy="330" r="8" fill="#D4A84B"/>
+</svg>

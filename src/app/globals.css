@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  @apply bg-canvas text-ink font-sans font-light antialiased;
+}
+
+body {
+  @apply min-h-screen;
+}
+
+main {
+  @apply min-h-screen;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(198, 166, 75, 0.28);
+  color: #F5F1E8;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.grain {
+  position: relative;
+}
+
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.05;
+  mix-blend-mode: soft-light;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E");
+}
+
+.container-page {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-14 sm:py-16 lg:py-20;
+}
+
+.section-heading {
+  @apply font-display font-bold text-amberRetro text-4xl sm:text-5xl lg:text-[3.25rem] tracking-tight mb-5 leading-[1.08];
+}
+
+.section-kicker {
+  @apply text-[11px] font-medium tracking-[0.22em] uppercase text-ink-muted mb-3;
+}
+
+.section-subtitle {
+  @apply text-lg sm:text-xl font-light text-ink-muted max-w-2xl;
+  line-height: 1.65;
+}
+
+.card {
+  @apply border border-divider rounded-2xl shadow-soft p-6 sm:p-8 bg-card;
+}
+
+.pill {
+  @apply inline-flex items-center gap-2 rounded-full border border-divider px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-ink-muted bg-canvas-soft/80;
+}
+
+.smooth-anchor {
+  scroll-margin-top: 5.75rem;
+}
+
+@media (max-width: 767px) {
+  .smooth-anchor {
+    scroll-margin-top: 5rem;
+  }
+}
+
+.divider {
+  @apply border-t border-divider;
+}
+
+.link-subtle {
+  @apply underline decoration-divider underline-offset-[0.2em] transition-colors hover:text-amberRetro;
+}
+
+.link-subtle:hover {
+  text-decoration-color: rgba(198, 166, 75, 0.55);
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-terracotta px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-ink shadow-soft transition-colors hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(198,166,75,0.45)] focus-visible:ring-offset-2 focus-visible:ring-offset-canvas active:translate-y-[1px];
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center rounded-full bg-transparent px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-ink-muted transition-colors hover:text-ink border border-divider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(198,166,75,0.3)] focus-visible:ring-offset-2 focus-visible:ring-offset-canvas active:translate-y-[1px];
+}
+
+.button-secondary:hover {
+  border-color: rgba(245, 241, 232, 0.35);
+  background-color: rgba(20, 53, 45, 0.6);
+}
+
+.lift {
+  @apply transition-transform duration-200 ease-out hover:-translate-y-0.5;
+}
+
+.editorial-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(198, 166, 75, 0.15) 12%,
+    rgba(198, 166, 75, 0.55) 50%,
+    rgba(198, 166, 75, 0.15) 88%,
+    transparent 100%
+  );
+  box-shadow: 0 1px 0 rgba(198, 166, 75, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}

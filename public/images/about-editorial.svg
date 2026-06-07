@@ -1,0 +1,14 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Editorial consulting visual">
+  <rect width="800" height="1000" fill="#F7F5F0"/>
+  <rect x="56" y="56" width="688" height="888" rx="24" fill="#EDE9E1" stroke="#D8D2C8"/>
+  <rect x="120" y="140" width="560" height="360" rx="12" fill="#FFFFFF" stroke="#D8D2C8"/>
+  <path d="M160 220H640" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M160 280H580" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M160 340H610" stroke="#D8D2C8" stroke-width="1.2"/>
+  <path d="M160 400H520" stroke="#D8D2C8" stroke-width="1.2"/>
+  <rect x="120" y="560" width="260" height="300" rx="12" fill="#FFFFFF" stroke="#D8D2C8"/>
+  <path d="M420 620C420 520 500 460 620 460" stroke="#5C1A2E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M420 760C420 680 480 620 660 620" stroke="#1E3D32" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="660" cy="620" r="10" fill="#D4A84B"/>
+  <text x="120" y="110" fill="#5C5C5C" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">BUENOS AIRES � WORLDWIDE</text>
+</svg>
