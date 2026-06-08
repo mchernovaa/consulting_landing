@@ -1,12 +1,11 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link } from "@/i18n/navigation";
 
 export function MobileStickyCta() {
-  const pathname = usePathname();
-  const isHome = pathname === "/";
+  const tc = useTranslations("Common");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -21,26 +20,26 @@ export function MobileStickyCta() {
       className={[
         "fixed inset-x-0 bottom-0 z-50 md:hidden",
         "transition-all duration-300 ease-out",
-        visible ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0"
+        visible ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0 pointer-events-none"
       ].join(" ")}
       aria-hidden={!visible}
     >
-      <div className="mx-auto max-w-6xl px-4 pb-4">
+      <div className="mx-auto max-w-6xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
         <div className="rounded-2xl border border-divider bg-canvas-soft/95 p-2 shadow-editorial backdrop-blur-md">
-          <div className="flex items-center gap-2">
+          <div className="flex items-stretch gap-2">
             <Link
-              href={isHome ? "#contact" : "/#contact"}
+              href="/#contact"
               data-cta="mobile_sticky_primary"
-              className="flex-1 rounded-xl bg-terracotta px-4 py-3 text-center text-[10px] font-semibold uppercase tracking-[0.18em] text-ink shadow-soft transition-colors hover:opacity-90"
+              className="inline-flex min-h-[44px] flex-1 items-center justify-center rounded-xl bg-terracotta px-3 py-2.5 text-center text-[10px] font-semibold uppercase leading-tight tracking-[0.12em] text-ink shadow-soft transition-colors hover:opacity-90 sm:px-4 sm:text-[11px] sm:tracking-[0.16em]"
             >
-              Обсудить задачу
+              {tc("discussTask")}
             </Link>
             <Link
-              href={isHome ? "#services" : "/#services"}
+              href="/#services"
               data-cta="mobile_sticky_secondary"
-              className="rounded-xl border border-divider bg-canvas px-4 py-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-ink-muted transition-colors hover:text-amberRetro"
+              className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-xl border border-divider bg-canvas px-3 py-2.5 text-[10px] font-semibold uppercase leading-tight tracking-[0.12em] text-ink-muted transition-colors hover:text-amberRetro sm:min-w-0 sm:px-4 sm:text-[11px] sm:tracking-[0.16em]"
             >
-              Услуги
+              {tc("services")}
             </Link>
           </div>
         </div>

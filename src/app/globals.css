@@ -10,6 +10,7 @@
 html,
 body {
   @apply bg-canvas text-ink font-sans font-light antialiased;
+  overflow-x: clip;
 }
 
 body {
@@ -52,15 +53,15 @@ html {
 }
 
 .container-page {
-  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
 }
 
 .section {
-  @apply py-14 sm:py-16 lg:py-20;
+  @apply py-10 sm:py-14 lg:py-20;
 }
 
 .section-heading {
-  @apply font-display font-bold text-amberRetro text-4xl sm:text-5xl lg:text-[3.25rem] tracking-tight mb-5 leading-[1.08];
+  @apply font-display font-bold text-amberRetro text-[1.75rem] sm:text-4xl lg:text-[3.25rem] tracking-tight mb-5 leading-[1.12] sm:leading-[1.08];
 }
 
 .section-kicker {
@@ -68,7 +69,7 @@ html {
 }
 
 .section-subtitle {
-  @apply text-lg sm:text-xl font-light text-ink-muted max-w-2xl;
+  @apply text-base sm:text-lg lg:text-xl font-light text-ink-muted max-w-2xl;
   line-height: 1.65;
 }
 
@@ -103,11 +104,11 @@ html {
 }
 
 .button-primary {
-  @apply inline-flex items-center justify-center rounded-full bg-terracotta px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-ink shadow-soft transition-colors hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(198,166,75,0.45)] focus-visible:ring-offset-2 focus-visible:ring-offset-canvas active:translate-y-[1px];
+  @apply inline-flex min-h-[44px] items-center justify-center rounded-full bg-terracotta px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-ink shadow-soft transition-colors hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(198,166,75,0.45)] focus-visible:ring-offset-2 focus-visible:ring-offset-canvas active:translate-y-[1px] sm:px-7 sm:py-3.5 sm:tracking-[0.2em];
 }
 
 .button-secondary {
-  @apply inline-flex items-center justify-center rounded-full bg-transparent px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-ink-muted transition-colors hover:text-ink border border-divider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(198,166,75,0.3)] focus-visible:ring-offset-2 focus-visible:ring-offset-canvas active:translate-y-[1px];
+  @apply inline-flex min-h-[44px] items-center justify-center rounded-full bg-transparent px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-ink-muted transition-colors hover:text-ink border border-divider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[rgba(198,166,75,0.3)] focus-visible:ring-offset-2 focus-visible:ring-offset-canvas active:translate-y-[1px] sm:px-7 sm:py-3.5 sm:tracking-[0.2em];
 }
 
 .button-secondary:hover {

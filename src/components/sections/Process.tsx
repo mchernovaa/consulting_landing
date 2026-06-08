@@ -1,61 +1,26 @@
+import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/components/ui/Reveal";
 
-const steps = [
-  {
-    title: "Знакомство и постановка задачи",
-    description:
-      "Обсуждаем контекст, цели и ограничения. Фиксирую, что сейчас «живёт в голове», и определяю, какие артефакты нужны в результате.",
-    result: "Понятный запрос, границы проекта и критерии результата."
-  },
-  {
-    title: "Интервью и описание процессов",
-    description:
-      "Провожу интервью с собственником и ключевыми людьми, разбираю текущие документы и практику. Задача — выявить существующие процессы, а не придумать новые.",
-    result: "Карта процессов, зоны неопределённости и приоритеты описания."
-  },
-  {
-    title: "Проектирование структуры",
-    description:
-      "Описываю, как бизнес устроен и как должен работать: роли, зоны ответственности, логика передачи задач, точки контроля.",
-    result: "Целевая структура и план систематизации."
-  },
-  {
-    title: "Разработка регламентов, инструкций и базы знаний",
-    description:
-      "Создаю документы, которыми можно пользоваться: регламенты, инструкции, чек-листы, структура базы знаний. Не для архива — для ежедневной работы.",
-    result: "Готовые артефакты для передачи команде."
-  },
-  {
-    title: "Консультации по использованию системы",
-    description:
-      "При необходимости консультирую по внедрению: помогаю разобраться в разработанных документах, провожу консультации для собственника и команды по их использованию.",
-    result: "Понимание системы и ясность, как с ней работать дальше."
-  }
-];
+type StepItem = { title: string; description: string; result: string };
 
-export function Process() {
+export async function Process() {
+  const t = await getTranslations("Process");
+  const steps = t.raw("items") as StepItem[];
+
   return (
-    <section
-      id="process"
-      className="section smooth-anchor border-b border-divider/60 bg-canvas-soft"
-    >
+    <section id="process" className="section smooth-anchor bg-canvas-soft">
       <div className="container-page">
         <Reveal>
           <div className="max-w-3xl">
-            <p className="section-kicker">03 · How I work</p>
+            <p className="section-kicker">{t("kicker")}</p>
             <h2 className="section-heading">
-              Как проходит{" "}
+              {t("title")}{" "}
               <span className="underline decoration-amberRetro decoration-[0.18em] underline-offset-[0.35em]">
-                работа
+                {t("titleHighlight")}
               </span>
               .
             </h2>
-            <p className="section-subtitle">
-              Спокойный, структурный процесс. На каждом этапе — понятные
-              артефакты. Я занимаюсь методологией и документами; полноценное
-              внедрение в команду — зона ответственности собственника, при
-              необходимости консультирую.
-            </p>
+            <p className="section-subtitle">{t("subtitle")}</p>
           </div>
         </Reveal>
 
@@ -79,7 +44,7 @@ export function Process() {
                       </div>
                       <div className="max-w-xs border-l border-divider/70 pl-4 text-xs text-ink-muted">
                         <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-ink-muted/80">
-                          Результат этапа
+                          {t("stageResult")}
                         </p>
                         <p className="leading-relaxed">{step.result}</p>
                       </div>

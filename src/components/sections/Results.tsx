@@ -1,34 +1,19 @@
+import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/components/ui/Reveal";
 
-const metrics = [
-  {
-    label: "Знания зафиксированы",
-    details:
-      "Опыт и стандарты — в регламентах, инструкциях и базе знаний, а не в голове собственника."
-  },
-  {
-    label: "Процессы понятны",
-    details:
-      "Команда знает, что делать и какой результат считается правильным."
-  },
-  {
-    label: "Систему можно передать",
-    details:
-      "Новые люди, партнёры и франчайзи получают документы — не устные инструкции."
-  }
-];
+type MetricItem = { label: string; details: string };
 
-export function Results() {
+export async function Results() {
+  const t = await getTranslations("Results");
+  const metrics = t.raw("items") as MetricItem[];
+
   return (
-    <section
-      id="results"
-      className="section smooth-anchor border-b border-divider/60 bg-canvas"
-    >
+    <section id="results" className="section smooth-anchor bg-canvas">
       <div className="container-page">
         <Reveal>
           <div className="max-w-3xl">
-            <p className="section-kicker">04 · Results</p>
-            <h2 className="section-heading">Что получает собственник</h2>
+            <p className="section-kicker">{t("kicker")}</p>
+            <h2 className="section-heading">{t("title")}</h2>
           </div>
         </Reveal>
 

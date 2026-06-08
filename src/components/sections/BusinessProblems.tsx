@@ -1,59 +1,26 @@
+import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/components/ui/Reveal";
 
-const problems = [
-  {
-    title: "Бизнес существует в голове собственника",
-    description:
-      "Решения, стандарты и логика работы не зафиксированы. Команда обращается к вам по каждому вопросу — потому что «как принято» нигде не описано."
-  },
-  {
-    title: "Процессы не описаны, знания передаются устно",
-    description:
-      "Новые сотрудники учатся долго. Качество зависит от конкретного человека, а не от понятных правил. При росте это становится узким местом."
-  },
-  {
-    title: "Нет регламентов, которыми реально пользуются",
-    description:
-      "Документы либо отсутствуют, либо лежат «для галочки». В работе каждый делает по-своему — результат сложно предсказать."
-  },
-  {
-    title: "Сложно передать бизнес команде или партнёрам",
-    description:
-      "Делегирование, масштабирование и подготовка к франчайзингу упираются в то, что опыт не оформлен в понятную структуру."
-  },
-  {
-    title: "Риск потери знаний",
-    description:
-      "Уход ключевого человека обнуляет участок работы. Нет единого места, где собраны стандарты, инструкции и логика принятия решений."
-  },
-  {
-    title: "Непонятно, с чего начать систематизацию",
-    description:
-      "Запрос «навести порядок» понятен, но неясно, какие процессы описывать первыми и как не утонуть в документах."
-  }
-];
+type ProblemItem = { title: string; description: string };
 
-export function BusinessProblems() {
+export async function BusinessProblems() {
+  const t = await getTranslations("BusinessProblems");
+  const problems = t.raw("items") as ProblemItem[];
+
   return (
-    <section
-      id="problems"
-      className="section smooth-anchor border-b border-divider/60 bg-canvas-soft"
-    >
+    <section id="problems" className="section smooth-anchor bg-canvas-soft">
       <div className="container-page">
         <Reveal>
           <div className="max-w-3xl">
-            <p className="section-kicker">01 · Pain points</p>
+            <p className="section-kicker">{t("kicker")}</p>
             <h2 className="section-heading">
-              Когда бизнес работает, но{" "}
+              {t("title")}{" "}
               <span className="underline decoration-amberRetro decoration-[0.18em] underline-offset-[0.35em]">
-                знания остаются в голове
+                {t("titleHighlight")}
               </span>
               .
             </h2>
-            <p className="section-subtitle">
-              Нужно зафиксировать то, что вы уже знаете — и передать это
-              команде.
-            </p>
+            <p className="section-subtitle">{t("subtitle")}</p>
           </div>
         </Reveal>
 

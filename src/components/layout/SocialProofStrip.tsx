@@ -1,25 +1,30 @@
-export function SocialProofStrip() {
-  const items = [
-    "30+ проектов",
-    "Старший методолог отдела методологии",
-    "Буэнос‑Айрес + удалённо по всему миру"
-  ];
+import { getTranslations } from "next-intl/server";
+
+export async function SocialProofStrip() {
+  const t = await getTranslations("SocialProof");
+  const items = t.raw("items") as string[];
 
   return (
-    <div className="border-y border-divider/30 bg-canvas-soft/40">
-      <div className="container-page py-3.5 sm:py-4">
-        <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-sm font-light tracking-[0.02em] text-ink-muted sm:text-[15px]">
+    <div className="bg-canvas-soft/40">
+      <div className="container-page py-3 sm:py-4">
+        <ul className="flex flex-col items-center gap-2 text-center sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-3 sm:gap-y-1.5">
           {items.map((item, index) => (
-            <span key={item} className="inline-flex items-center gap-3">
+            <li
+              key={item}
+              className="inline-flex max-w-full items-center gap-2 font-sans text-[12px] font-light leading-snug tracking-[0.01em] text-ink-muted sm:max-w-none sm:text-[15px] sm:tracking-[0.02em]"
+            >
               {index > 0 ? (
-                <span className="hidden text-amberRetro/50 sm:inline" aria-hidden="true">
+                <span
+                  className="hidden text-amberRetro/50 sm:inline"
+                  aria-hidden="true"
+                >
                   ·
                 </span>
               ) : null}
               <span>{item}</span>
-            </span>
+            </li>
           ))}
-        </p>
+        </ul>
       </div>
     </div>
   );

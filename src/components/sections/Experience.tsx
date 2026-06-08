@@ -1,28 +1,18 @@
+import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/components/ui/Reveal";
 
-const niches = [
-  "кофейни",
-  "студии и салоны",
-  "образовательные проекты",
-  "услуги",
-  "строительные компании",
-  "американские франшизы"
-];
+export async function Experience() {
+  const t = await getTranslations("Experience");
+  const niches = t.raw("niches") as string[];
 
-export function Experience() {
   return (
-    <section
-      id="experience"
-      className="section smooth-anchor border-b border-divider/60 bg-canvas-soft"
-    >
+    <section id="experience" className="section smooth-anchor bg-canvas-soft">
       <div className="container-page">
         <Reveal>
           <div className="max-w-3xl">
-            <p className="section-kicker">07 · Experience</p>
-            <h2 className="section-heading">Опыт и проекты</h2>
-            <p className="section-subtitle">
-              30+ проектов в разных нишах — от студий до американских франшиз.
-            </p>
+            <p className="section-kicker">{t("kicker")}</p>
+            <h2 className="section-heading">{t("title")}</h2>
+            <p className="section-subtitle">{t("subtitle")}</p>
           </div>
         </Reveal>
 
@@ -30,14 +20,13 @@ export function Experience() {
           <Reveal delayMs={40}>
             <article className="card lift">
               <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-ink-muted/80">
-                Проекты
+                {t("projectsLabel")}
               </p>
               <p className="mt-3 font-display text-3xl font-bold tracking-tight text-amberRetro">
-                30+
+                {t("projectsCount")}
               </p>
               <p className="mt-4 text-sm font-light leading-relaxed text-ink-muted">
-                Систематизация для команд и сетей — процессы, регламенты, базы
-                знаний.
+                {t("projectsText")}
               </p>
             </article>
           </Reveal>
@@ -45,14 +34,13 @@ export function Experience() {
           <Reveal delayMs={80}>
             <article className="card lift">
               <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-ink-muted/80">
-                Роль
+                {t("roleLabel")}
               </p>
               <p className="mt-3 font-display text-2xl font-bold tracking-tight text-amberRetro">
-                Старший методолог
+                {t("roleTitle")}
               </p>
               <p className="mt-4 text-sm font-light leading-relaxed text-ink-muted">
-                Интервью с собственниками, описание процессов, разработка
-                документов.
+                {t("roleText")}
               </p>
             </article>
           </Reveal>

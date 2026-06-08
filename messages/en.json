@@ -1,0 +1,524 @@
+{
+  "Metadata": {
+    "title": "Maria Chernova — Business Methodology & Systematization",
+    "description": "I help business owners turn knowledge, processes, and standards into a clear system their team can run and scale.",
+    "ogTitle": "Maria Chernova — Business Methodology & Systematization",
+    "ogDescription": "Business methodology and systematization consulting: process documentation, SOPs, role guides, and knowledge bases."
+  },
+  "Common": {
+    "discussTask": "Discuss your project",
+    "services": "Services",
+    "skipToContent": "Skip to content",
+    "privacyNote": "By submitting, you agree to data processing for the purpose of responding.",
+    "confidential": "Confidential · No spam",
+    "result": "Outcome",
+    "whatIncluded": "What may be included",
+    "stageResult": "Stage deliverable",
+    "caseNumber": "Case"
+  },
+  "Header": {
+    "tagline": "Business methodology & systematization",
+    "nav": {
+      "problems": "Challenges",
+      "services": "Services",
+      "process": "Process",
+      "results": "Outcomes",
+      "about": "About",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu"
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  },
+  "SocialProof": {
+    "items": [
+      "30+ successful projects",
+      "Methodology department team lead",
+      "Remote worldwide"
+    ]
+  },
+  "Hero": {
+    "title": "I turn an owner's knowledge and processes into a system the team can run",
+    "subtitle": "I document processes, build SOPs, and create knowledge bases. I work with companies around the world.",
+    "metrics": {
+      "audience": {
+        "label": "Who it's for",
+        "value": "Owners who delegate and scale"
+      },
+      "result": {
+        "label": "Outcome",
+        "value": "The business stops living only in the owner's head"
+      },
+      "format": {
+        "label": "Format",
+        "value": "I work with companies worldwide. International consulting and remote collaboration with teams."
+      }
+    },
+    "portraitAlt": "Maria Chernova — business methodology and systematization"
+  },
+  "BusinessProblems": {
+    "kicker": "01 · Pain points",
+    "title": "When the business runs, but",
+    "titleHighlight": "knowledge stays in your head",
+    "subtitle": "You need to capture what you already know — and hand it to the team.",
+    "items": [
+      {
+        "title": "The business lives in the owner's head",
+        "description": "Decisions, standards, and how things work are not written down. The team comes to you for every question — because nowhere does it say how things are done."
+      },
+      {
+        "title": "Processes are undocumented; knowledge is passed verbally",
+        "description": "New hires take too long to ramp up. Quality depends on a specific person, not clear rules. As you grow, this becomes a bottleneck."
+      },
+      {
+        "title": "No SOPs people actually use",
+        "description": "Documents are missing or exist only for compliance. In practice, everyone does it their own way — and outcomes are hard to predict."
+      },
+      {
+        "title": "Hard to hand the business to the team or partners",
+        "description": "Delegation, scaling, and franchise readiness stall because experience is not organized into a transferable structure."
+      },
+      {
+        "title": "Risk of knowledge loss",
+        "description": "When a key person leaves, an entire area of work resets. There is no single place for standards, instructions, and decision logic."
+      },
+      {
+        "title": "Unclear where to start systematizing",
+        "description": "The need to \"get things in order\" is clear, but it is not obvious which processes to document first or how to avoid drowning in paperwork."
+      }
+    ]
+  },
+  "Services": {
+    "kicker": "02 · Services",
+    "title": "I turn business know-how into a",
+    "titleHighlight": "transferable system",
+    "subtitle": "Processes, SOPs, role guides, and a knowledge base — what you can hand to the team and scale.",
+    "items": [
+      {
+        "title": "Role guides and SOPs",
+        "description": "I define accountability, rules, and outcome standards so documents are useful to the people who rely on them — not filed away.",
+        "bullets": [
+          "Roles, ownership, and outcome requirements",
+          "SOPs for key operations and critical decisions",
+          "Templates, checklists, and communication standards"
+        ]
+      },
+      {
+        "title": "Business process documentation",
+        "description": "I map the real \"as-is\" through interviews, document how work actually happens, and simplify the logic where needed.",
+        "bullets": [
+          "Process map and ambiguity points",
+          "Target model and handoff rules",
+          "Quality standards and execution control"
+        ]
+      },
+      {
+        "title": "KPIs and control systems",
+        "description": "I help define metrics and reporting formats so leaders see facts, not just intuition.",
+        "bullets": [
+          "KPIs by role and process",
+          "Management meeting format and agendas",
+          "Transparent reporting and accountability"
+        ]
+      },
+      {
+        "title": "Knowledge bases and expertise transfer",
+        "description": "I consolidate company knowledge into one structure: instructions, standards, templates — so new people can onboard without months of verbal training.",
+        "bullets": [
+          "Knowledge base structure and navigation",
+          "Onboarding paths and role checklists",
+          "Tools: Notion / Confluence / Google Workspace"
+        ]
+      },
+      {
+        "title": "Franchise system preparation",
+        "description": "I package accumulated experience into standards and documents for replication. Not a franchise book for show — a working system for partners.",
+        "bullets": [
+          "Operating standards and partner requirements",
+          "Quality control SOPs",
+          "Franchisee / franchisor roles and accountability"
+        ]
+      },
+      {
+        "title": "Operating structure",
+        "description": "I describe how the business is organized: functions, roles, team interaction — so it is clear who owns what and how work is handed off.",
+        "bullets": [
+          "Operating structure and responsibility matrix",
+          "Systematization roadmap and priorities",
+          "Consulting on using finished documents"
+        ]
+      }
+    ]
+  },
+  "WorkFormats": {
+    "kicker": "Formats · Work formats",
+    "title": "Engagement",
+    "titleHighlight": "formats",
+    "subtitle": "Depending on your needs, I can work on specific processes or build a full knowledge and standards system for the company.",
+    "whatIncluded": "What may be included",
+    "result": "Outcome",
+    "pricingNote": "Scope and pricing are defined individually after understanding your business needs.",
+    "items": [
+      {
+        "title": "Targeted process systematization",
+        "description": "Best when you need to document a specific area of the business.",
+        "bullets": [
+          "SOPs",
+          "instructions",
+          "role responsibilities",
+          "checklists",
+          "work standards",
+          "employee onboarding"
+        ],
+        "result": "The team gets clear tools for day-to-day work."
+      },
+      {
+        "title": "Full business systematization",
+        "description": "For companies that want to reduce dependence on the owner's daily involvement.",
+        "bullets": [
+          "business process documentation",
+          "operating structure",
+          "knowledge base",
+          "SOPs and instructions",
+          "interaction standards",
+          "knowledge transfer system"
+        ],
+        "result": "The business becomes more manageable and predictable."
+      },
+      {
+        "title": "Scaling readiness",
+        "description": "For companies planning growth, new locations, or franchise development.",
+        "bullets": [
+          "packaging owner expertise",
+          "process standardization",
+          "operating model documentation",
+          "franchise documentation",
+          "knowledge transfer system setup"
+        ],
+        "result": "A foundation for scaling without losing quality."
+      }
+    ]
+  },
+  "Process": {
+    "kicker": "03 · How I work",
+    "title": "How the",
+    "titleHighlight": "engagement works",
+    "subtitle": "A calm, structured process. Clear deliverables at every stage. I focus on methodology and documentation; full rollout is the owner's responsibility — I advise when needed.",
+    "stageResult": "Stage deliverable",
+    "items": [
+      {
+        "title": "Discovery and scoping",
+        "description": "We discuss context, goals, and constraints. I capture what currently \"lives in your head\" and define the deliverables needed.",
+        "result": "A clear brief, project boundaries, and success criteria."
+      },
+      {
+        "title": "Interviews and process mapping",
+        "description": "I interview the owner and key people, review existing documents and practice. The goal is to surface what already works — not invent new processes.",
+        "result": "Process map, ambiguity zones, and documentation priorities."
+      },
+      {
+        "title": "Structure design",
+        "description": "I describe how the business is organized and should run: roles, accountability, handoff logic, and control points.",
+        "result": "Target structure and systematization plan."
+      },
+      {
+        "title": "SOPs, guides, and knowledge base development",
+        "description": "I create documents people can actually use: SOPs, instructions, checklists, knowledge base structure. Built for daily work — not the archive.",
+        "result": "Ready artifacts to hand to the team."
+      },
+      {
+        "title": "Advisory on using the system",
+        "description": "When needed, I advise on rollout: help the owner and team understand the documents and how to use them.",
+        "result": "Clarity on the system and how to work with it going forward."
+      }
+    ]
+  },
+  "Results": {
+    "kicker": "04 · Results",
+    "title": "What the owner gets",
+    "items": [
+      {
+        "label": "Knowledge captured",
+        "details": "Experience and standards live in SOPs, instructions, and a knowledge base — not in the owner's head."
+      },
+      {
+        "label": "Processes are clear",
+        "details": "The team knows what to do and what counts as the right outcome."
+      },
+      {
+        "label": "A system you can transfer",
+        "details": "New hires, partners, and franchisees get documents — not verbal instructions."
+      }
+    ]
+  },
+  "Cases": {
+    "kicker": "05 · Cases",
+    "title": "Selected",
+    "titleHighlight": "project examples",
+    "subtitle": "Anonymized cases from practice — the challenge, what was done, and the outcome for the owner.",
+    "filters": {
+      "all": "All projects",
+      "franchises": "Franchises",
+      "coffee": "Coffee shops",
+      "beauty": "Beauty salons",
+      "services": "Service businesses"
+    },
+    "labels": {
+      "case": "Case",
+      "situation": "Starting situation",
+      "done": "What was delivered",
+      "result": "Outcome"
+    },
+    "items": [
+      {
+        "title": "Dance and pole fitness studio network",
+        "situation": "The business was growing fast, but most knowledge and operating processes existed only in the owner's head. New staff were trained verbally, leading to quality differences across locations.",
+        "done": [
+          "owner interviews conducted",
+          "key business processes documented",
+          "role guides developed",
+          "customer service standards created",
+          "onboarding and training system structured",
+          "knowledge base prepared for further scaling"
+        ],
+        "result": "The owner gained a clear knowledge transfer system, reduced dependence on personal involvement, and built a foundation for network growth."
+      },
+      {
+        "title": "US moving services franchise",
+        "situation": "Existing processes needed to be structured for partner handoff and a consistent operating standard.",
+        "done": [
+          "current process analysis conducted",
+          "customer interaction standards documented",
+          "staff instructions developed",
+          "team operating SOPs created",
+          "knowledge transfer system built for new partners"
+        ],
+        "result": "The business gained unified operating standards and tools to scale without losing service quality."
+      },
+      {
+        "title": "US home repair services franchise",
+        "situation": "The company was preparing to expand and needed internal process systematization.",
+        "done": [
+          "owner interviews conducted",
+          "key service delivery stages documented",
+          "SOPs and instructions developed",
+          "operational information structured",
+          "materials prepared for new system participants"
+        ],
+        "result": "Owners received a transparent, usable operating system for scaling the business."
+      },
+      {
+        "title": "Beauty salons and body contouring studios",
+        "situation": "As the business grew, staff work needed standardization and a consistent client experience.",
+        "done": [
+          "checklists developed",
+          "role guides created",
+          "staff onboarding processes documented",
+          "service delivery standards defined",
+          "internal SOPs prepared"
+        ],
+        "result": "A unified team operating system emerged, reducing dependence on specific employees and improving service predictability."
+      },
+      {
+        "title": "Coffee shops and service projects",
+        "situation": "Owners needed a structured knowledge base for opening new locations and training staff.",
+        "done": [
+          "opening processes documented",
+          "instructions and standards prepared",
+          "staff requirements systematized",
+          "internal company documents created"
+        ],
+        "result": "The business gained tools to scale and transfer expertise to new staff and managers."
+      }
+    ]
+  },
+  "About": {
+    "kicker": "06 · About",
+    "title": "I move businesses",
+    "titleHighlight": "from head to system",
+    "subtitle": "Consulting in business methodology and systematization. I capture knowledge, processes, and standards in documents you can hand to the team, partners, or franchisees.",
+    "advantageLabel": "Core advantage",
+    "advantageTitle": "Extracting knowledge from the owner's head",
+    "advantageText": "Work starts with interviews. I do not invent processes — I surface what already works and translate it into SOPs, instructions, and a knowledge base.",
+    "principlesLabel": "Principles",
+    "principles": [
+      {
+        "title": "Discover, don't invent",
+        "description": "I document real work, not someone else's model."
+      },
+      {
+        "title": "Documents are tools",
+        "description": "Concise, clear, built for daily use."
+      },
+      {
+        "title": "Clear boundaries",
+        "description": "Methodology and documents; rollout is the owner's domain."
+      }
+    ]
+  },
+  "Experience": {
+    "kicker": "07 · Experience",
+    "title": "Experience and projects",
+    "subtitle": "30+ projects across niches — from studios to US franchises.",
+    "projectsLabel": "Projects",
+    "projectsCount": "30+",
+    "projectsText": "Systematization for teams and networks — processes, SOPs, knowledge bases.",
+    "roleLabel": "Role",
+    "roleTitle": "Methodology department team lead",
+    "roleText": "Owner interviews, process documentation, document development.",
+    "niches": [
+      "coffee shops",
+      "studios and salons",
+      "education projects",
+      "services",
+      "construction companies",
+      "US franchises"
+    ]
+  },
+  "Cta": {
+    "kicker": "08 · CTA",
+    "title": "Let's discuss your project",
+    "text": "We'll map where to start systematizing — calmly, without pressure. Use the form below or reach out via Telegram / email.",
+    "portraitAlt": "Maria Chernova — business methodology and systematization"
+  },
+  "Faq": {
+    "kicker": "09 · FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Do you handle implementation?",
+        "answer": "My focus is the system, processes, and documents. I advise on using the materials. Full implementation is a separate engagement."
+      },
+      {
+        "question": "How long does the work take?",
+        "answer": "From a few days to several weeks — depending on scope and scale."
+      },
+      {
+        "question": "Which industries do you work with?",
+        "answer": "Coffee shops, salons, education, services, US franchises, and other service businesses."
+      },
+      {
+        "question": "What will I receive?",
+        "answer": "SOPs, instructions, standards, and documented processes — a system you can hand to the team."
+      },
+      {
+        "question": "Can we work remotely from any country?",
+        "answer": "Yes. I work with companies worldwide — remotely, regardless of country or time zone."
+      }
+    ]
+  },
+  "ContactForm": {
+    "kicker": "10 · Contact",
+    "title": "Let's discuss",
+    "titleHighlight": "your project",
+    "subtitle": "Tell me a bit about your business and current priorities. I will get back to you within 24 hours.",
+    "labels": {
+      "name": "Name",
+      "telegramWhatsApp": "Telegram / WhatsApp",
+      "businessNiche": "Business niche",
+      "whatNeedsSystematization": "What needs systematization"
+    },
+    "placeholders": {
+      "name": "e.g. Maria",
+      "telegramWhatsApp": "@username / +1…",
+      "businessNiche": "e.g. coffee shop / salon / franchise",
+      "whatNeedsSystematization": "Briefly: which processes to document, what blocks delegation, what you want to hand to the team."
+    },
+    "submit": "Discuss your project",
+    "submitting": "Sending…",
+    "error": {
+      "title": "Could not send your request",
+      "text": "Please try again in a moment or message directly on Telegram."
+    },
+    "success": {
+      "kicker": "Request received",
+      "title": "Thank you. I will contact you within 24 hours.",
+      "text": "You can also message on Telegram or open an email with your request details — that helps us schedule a conversation faster.",
+      "openEmail": "Open email",
+      "writeTelegram": "Message on Telegram"
+    },
+    "sidebar": {
+      "telegram": {
+        "title": "Telegram",
+        "text": "If you prefer, you can message directly on Telegram.",
+        "button": "@mchernovaa"
+      },
+      "whatHappensNext": {
+        "title": "What happens next",
+        "step1": "I will read your message and ask 2–3 clarifying questions if needed.",
+        "step2": "We will discuss which processes to document first and agree on the engagement format.",
+        "step3": "I work with companies worldwide — remotely, regardless of country or time zone."
+      },
+      "email": {
+        "title": "Email",
+        "address": "m.chernova734@gmail.com"
+      }
+    }
+  },
+  "Footer": {
+    "brand": "Maria Chernova · business methodology & systematization",
+    "description": "Business systematization: process documentation, SOPs, instructions, knowledge bases, and scaling readiness. I work remotely with companies worldwide.",
+    "tagline": "From expertise in your head — to a system you can transfer",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "copyright": "All rights reserved",
+    "remoteNote": "Remote worldwide",
+    "navLinks": {
+      "services": "Services",
+      "formats": "Formats",
+      "process": "How I work",
+      "experience": "Experience",
+      "cases": "Cases",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "contactInfo": "Telegram: @mchernovaa\nEmail: m.chernova734@gmail.com\nRemote worldwide"
+  },
+  "StickyNav": {
+    "ariaLabel": "Section navigation",
+    "items": {
+      "problems": "Business challenges",
+      "services": "Services",
+      "process": "How it works",
+      "results": "Outcomes",
+      "cases": "Cases",
+      "about": "About",
+      "experience": "Experience",
+      "faq": "FAQ",
+      "contact": "Contact"
+    }
+  },
+  "NotFound": {
+    "kicker": "Page not found",
+    "title": "404",
+    "text": "It looks like you followed a broken link. Return to the homepage.",
+    "home": "Back to home"
+  },
+  "Schema": {
+    "name": "Business consulting: operating systems and scaling",
+    "description": "I help build the operating system of a business: SOPs, role guides, process documentation, KPIs and control frameworks, knowledge bases, franchise playbooks, and scaling readiness.",
+    "serviceType": "Business process systematization, SOPs, KPIs, knowledge bases, operating structure, franchising",
+    "jobTitle": "Business methodology and systematization",
+    "offers": [
+      "Operating system assessment",
+      "SOP and process development",
+      "KPIs and knowledge base"
+    ],
+    "contactAction": "Request a system review"
+  },
+  "LeadLinks": {
+    "subject": "Inquiry: discuss systematization project",
+    "header": "New inquiry from the website:",
+    "fields": {
+      "name": "Name",
+      "telegramWhatsApp": "Telegram/WhatsApp",
+      "businessNiche": "Business niche",
+      "whatNeedsSystematization": "What needs systematization",
+      "utm": "UTM"
+    }
+  }
+}

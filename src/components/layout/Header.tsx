@@ -1,25 +1,28 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { Link } from "@/i18n/navigation";
+import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 
-const sections = [
-  { id: "problems", label: "Проблемы" },
-  { id: "services", label: "Услуги" },
-  { id: "process", label: "Процесс" },
-  { id: "results", label: "Результаты" },
-  { id: "about", label: "Обо мне" },
-  { id: "experience", label: "Опыт" },
-  { id: "contact", label: "Контакт" }
-];
+const sectionIds = [
+  "problems",
+  "services",
+  "process",
+  "results",
+  "about",
+  "experience",
+  "contact"
+] as const;
 
 export function Header() {
-  const pathname = usePathname();
-
-  const isHome = pathname === "/";
+  const t = useTranslations("Header");
+  const tc = useTranslations("Common");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const navLinkClass =
+    "flex min-h-[44px] items-center font-sans text-sm font-bold uppercase tracking-[0.05em] text-ink transition-colors hover:text-amberRetro sm:tracking-[0.06em]";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -40,79 +43,60 @@ export function Header() {
   return (
     <header
       className={[
-        "sticky top-0 z-40 border-b border-divider/50 bg-canvas/75 backdrop-blur-md transition-shadow",
+        "sticky top-0 z-40 bg-canvas/75 backdrop-blur-md transition-shadow",
         scrolled ? "shadow-[0_8px_24px_rgba(0,0,0,0.2)]" : "shadow-none"
       ].join(" ")}
     >
-      <div className="container-page flex h-14 items-center justify-between gap-3 lg:h-16">
-        <Link href="/" className="flex min-w-0 shrink-0 items-center gap-2.5">
-          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-divider bg-canvas-soft font-display text-sm font-bold text-amberRetro">
+      <div className="container-page flex min-h-14 items-center justify-between gap-1.5 py-2 sm:gap-3 lg:min-h-16 lg:py-0">
+        <Link
+          href="/"
+          className="flex min-w-0 max-w-[calc(100%-8.5rem)] items-center gap-2 sm:max-w-[calc(100%-9.5rem)] sm:gap-2.5 sm:shrink-0 lg:max-w-none lg:min-w-[14rem] xl:min-w-[15.5rem]"
+        >
+          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-divider bg-canvas-soft font-display text-sm font-bold text-amberRetro sm:h-8 sm:w-8">
             MC
           </div>
-          <div className="min-w-0 leading-tight">
-            <span className="block truncate font-display text-base font-bold tracking-tight text-amberRetro lg:text-lg">
+          <div className="min-w-0 leading-[1.15]">
+            <span className="block truncate font-display text-[15px] font-bold tracking-tight text-amberRetro sm:text-base lg:text-lg">
               Maria Chernova
             </span>
-            <span className="hidden truncate text-[10px] font-medium uppercase tracking-[0.16em] text-ink-muted xl:block">
-              Методолог
+            <span className="mt-0.5 block font-display text-[8px] font-bold uppercase leading-[1.2] tracking-[0.02em] text-amberRetro sm:text-[10px] sm:tracking-[0.03em] lg:text-xs">
+              {t("tagline")}
             </span>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-5 text-xs font-medium uppercase tracking-[0.14em] text-ink-muted lg:flex xl:gap-6">
-          {sections.map((section) =>
-            isHome ? (
-              <a
-                key={section.id}
-                href={`#${section.id}`}
-                className="whitespace-nowrap transition-colors hover:text-amberRetro"
-              >
-                {section.label}
-              </a>
-            ) : (
-              <Link
-                key={section.id}
-                href={`/#${section.id}`}
-                className="whitespace-nowrap transition-colors hover:text-amberRetro"
-              >
-                {section.label}
-              </Link>
-            )
-          )}
+        <nav className="hidden items-center gap-3 lg:flex xl:gap-4">
+          {sectionIds.map((id) => (
+            <a key={id} href={`#${id}`} className={`${navLinkClass} whitespace-nowrap`}>
+              {t(`nav.${id}`)}
+            </a>
+          ))}
         </nav>
 
-        <div className="flex shrink-0 items-center gap-2">
-          {isHome ? (
-            <a
-              href="#contact"
-              data-cta="header_primary"
-              className="hidden rounded-full bg-terracotta px-3.5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-ink shadow-soft transition-colors hover:opacity-90 lg:inline-flex"
-            >
-              Обсудить задачу
-            </a>
-          ) : (
-            <Link
-              href="/#contact"
-              data-cta="header_primary"
-              className="hidden rounded-full bg-terracotta px-3.5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-ink shadow-soft transition-colors hover:opacity-90 lg:inline-flex"
-            >
-              Обсудить задачу
-            </Link>
-          )}
+        <div className="flex shrink-0 items-center gap-0.5 sm:gap-1">
+          <LanguageSwitcher />
+
+          <Link
+            href="/#contact"
+            data-cta="header_primary"
+            className="hidden min-h-[44px] rounded-full bg-terracotta px-3.5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-ink shadow-soft transition-colors hover:opacity-90 lg:inline-flex lg:items-center"
+          >
+            {tc("discussTask")}
+          </Link>
 
           <button
             type="button"
-            aria-label="Открыть меню"
+            aria-label={t("openMenu")}
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((v) => !v)}
             className={[
-              "inline-flex h-9 w-9 items-center justify-center rounded-full",
+              "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full",
               "border border-divider bg-canvas-soft text-ink-muted",
               "transition-colors hover:text-amberRetro",
               "lg:hidden"
             ].join(" ")}
           >
-            <span className="sr-only">Меню</span>
+            <span className="sr-only">{t("menu")}</span>
             <svg
               width="18"
               height="18"
@@ -153,47 +137,46 @@ export function Header() {
         ].join(" ")}
         role="dialog"
         aria-modal="true"
-        aria-label="Меню"
+        aria-label={t("menu")}
       >
         <button
           type="button"
           onClick={() => setMenuOpen(false)}
           className="absolute inset-0 bg-canvas/80"
-          aria-label="Закрыть меню"
+          aria-label={t("closeMenu")}
         />
         <div
           className={[
-            "absolute left-0 right-0 top-[56px]",
-            "mx-4 rounded-2xl border border-divider bg-canvas-soft backdrop-blur-md",
+            "absolute left-0 right-0 top-14",
+            "mx-3 max-h-[calc(100dvh-4rem)] overflow-y-auto rounded-2xl border border-divider bg-canvas-soft backdrop-blur-md sm:mx-4",
             "shadow-editorial",
             "transition-transform duration-250 ease-out",
             menuOpen ? "translate-y-0" : "-translate-y-4"
           ].join(" ")}
         >
-          <div className="p-4">
-            <div className="mt-2 grid gap-2">
-              {sections.map((section) => (
+          <div className="p-3 sm:p-4">
+            <div className="grid gap-1.5">
+              {sectionIds.map((id) => (
                 <a
-                  key={section.id}
-                  href={isHome ? `#${section.id}` : `/#${section.id}`}
+                  key={id}
+                  href={`#${id}`}
                   onClick={() => setMenuOpen(false)}
                   className={[
-                    "rounded-xl border border-divider bg-canvas px-4 py-3",
-                    "text-sm font-medium text-ink-muted",
-                    "transition-colors hover:text-amberRetro"
+                    "rounded-xl border border-divider bg-canvas px-4",
+                    navLinkClass
                   ].join(" ")}
                 >
-                  {section.label}
+                  {t(`nav.${id}`)}
                 </a>
               ))}
-              <a
-                href={isHome ? "#contact" : "/#contact"}
+              <Link
+                href="/#contact"
                 data-cta="mobile_menu_primary"
                 onClick={() => setMenuOpen(false)}
-                className="mt-2 inline-flex w-full items-center justify-center rounded-xl bg-terracotta px-4 py-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-ink transition-colors hover:opacity-90"
+                className="mt-1 inline-flex min-h-[44px] w-full items-center justify-center rounded-xl bg-terracotta px-4 py-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-ink transition-colors hover:opacity-90 sm:text-xs sm:tracking-[0.18em]"
               >
-                Обсудить задачу
-              </a>
+                {tc("discussTask")}
+              </Link>
             </div>
           </div>
         </div>

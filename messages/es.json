@@ -1,0 +1,524 @@
+{
+  "Metadata": {
+    "title": "Maria Chernova — Metodología y sistematización de negocios",
+    "description": "Ayudo a dueños de negocio a convertir conocimiento, procesos y estándares en un sistema claro que el equipo puede operar y escalar.",
+    "ogTitle": "Maria Chernova — Metodología y sistematización de negocios",
+    "ogDescription": "Consultoría en metodología y sistematización de negocios: documentación de procesos, procedimientos, instructivos y bases de conocimiento."
+  },
+  "Common": {
+    "discussTask": "Conversemos su proyecto",
+    "services": "Servicios",
+    "skipToContent": "Ir al contenido",
+    "privacyNote": "Al enviar, acepta el tratamiento de datos para poder responderle.",
+    "confidential": "Confidencial · Sin spam",
+    "result": "Resultado",
+    "whatIncluded": "Qué puede incluir",
+    "stageResult": "Entregable de la etapa",
+    "caseNumber": "Caso"
+  },
+  "Header": {
+    "tagline": "Metodología y sistematización de negocios",
+    "nav": {
+      "problems": "Desafíos",
+      "services": "Servicios",
+      "process": "Proceso",
+      "results": "Resultados",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    },
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menu": "Menú"
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma"
+  },
+  "SocialProof": {
+    "items": [
+      "30+ proyectos exitosos",
+      "Líder de equipo del departamento de metodología",
+      "Remoto en todo el mundo"
+    ]
+  },
+  "Hero": {
+    "title": "Convierto el conocimiento y los procesos del dueño en un sistema que el equipo puede operar",
+    "subtitle": "Documento procesos, creo procedimientos y bases de conocimiento. Trabajo con empresas en todo el mundo.",
+    "metrics": {
+      "audience": {
+        "label": "Para quién",
+        "value": "Dueños que delegan y escalan"
+      },
+      "result": {
+        "label": "Resultado",
+        "value": "El negocio deja de vivir solo en la cabeza del dueño"
+      },
+      "format": {
+        "label": "Formato",
+        "value": "Trabajo con empresas en todo el mundo. Consultoría internacional y trabajo remoto con equipos."
+      }
+    },
+    "portraitAlt": "Maria Chernova — metodología y sistematización de negocios"
+  },
+  "BusinessProblems": {
+    "kicker": "01 · Pain points",
+    "title": "Cuando el negocio funciona, pero",
+    "titleHighlight": "el conocimiento queda en la cabeza",
+    "subtitle": "Hay que capturar lo que ya sabe — y transferirlo al equipo.",
+    "items": [
+      {
+        "title": "El negocio vive en la cabeza del dueño",
+        "description": "Decisiones, estándares y la lógica del trabajo no están documentados. El equipo acude a usted por cada consulta — porque en ningún lado está escrito cómo se hace."
+      },
+      {
+        "title": "Los procesos no están descritos; el conocimiento se transmite verbalmente",
+        "description": "Los nuevos empleados tardan mucho en aprender. La calidad depende de una persona concreta, no de reglas claras. Al crecer, esto se convierte en un cuello de botella."
+      },
+      {
+        "title": "No hay procedimientos que realmente se usen",
+        "description": "Los documentos faltan o existen solo por cumplimiento. En la práctica, cada uno hace a su manera — y el resultado es difícil de predecir."
+      },
+      {
+        "title": "Es difícil transferir el negocio al equipo o socios",
+        "description": "La delegación, el escalamiento y la preparación para franquicias se frenan porque la experiencia no está organizada en una estructura transferible."
+      },
+      {
+        "title": "Riesgo de pérdida de conocimiento",
+        "description": "Si se va una persona clave, se pierde todo un área de trabajo. No hay un lugar único con estándares, instructivos y lógica de decisiones."
+      },
+      {
+        "title": "No está claro por dónde empezar la sistematización",
+        "description": "El pedido de \"ordenar las cosas\" es claro, pero no se sabe qué procesos documentar primero ni cómo no ahogarse en papeles."
+      }
+    ]
+  },
+  "Services": {
+    "kicker": "02 · Services",
+    "title": "Convierto la experiencia del negocio en un",
+    "titleHighlight": "sistema transferible",
+    "subtitle": "Procesos, procedimientos, instructivos y base de conocimiento — lo que puede entregar al equipo y escalar.",
+    "items": [
+      {
+        "title": "Instructivos de cargo y procedimientos",
+        "description": "Defino responsabilidades, reglas y estándares de resultado para que los documentos sean útiles a quienes los usan — no queden archivados.",
+        "bullets": [
+          "Roles, áreas de responsabilidad y requisitos de resultado",
+          "Procedimientos de operaciones clave y decisiones críticas",
+          "Plantillas, listas de verificación y estándares de comunicación"
+        ]
+      },
+      {
+        "title": "Documentación de procesos de negocio",
+        "description": "Mapeo la realidad \"como es\" mediante entrevistas, describo cómo funciona realmente el trabajo y simplifico la lógica donde hace falta.",
+        "bullets": [
+          "Mapa de procesos y puntos de ambigüedad",
+          "Modelo objetivo y reglas de transferencia de tareas",
+          "Estándares de calidad y control de ejecución"
+        ]
+      },
+      {
+        "title": "KPI y sistema de control",
+        "description": "Ayudo a definir indicadores y formatos de reporte para que los líderes vean hechos, no solo intuición.",
+        "bullets": [
+          "KPI por rol y proceso",
+          "Formato de reuniones de gestión y agendas",
+          "Reportes transparentes y responsabilidad clara"
+        ]
+      },
+      {
+        "title": "Bases de conocimiento y transferencia de expertise",
+        "description": "Consolido el conocimiento de la empresa en una estructura única: instructivos, estándares, plantillas — para que nuevas personas se incorporen sin meses de capacitación verbal.",
+        "bullets": [
+          "Estructura y navegación de la base de conocimiento",
+          "Rutas de onboarding y listas por rol",
+          "Herramientas: Notion / Confluence / Google Workspace"
+        ]
+      },
+      {
+        "title": "Preparación del sistema de franquicia",
+        "description": "Empaqueto la experiencia acumulada en estándares y documentos para replicar. No un manual de franquicia de cumplimiento — un sistema operativo para socios.",
+        "bullets": [
+          "Estándares operativos y requisitos para socios",
+          "Procedimientos de control de calidad",
+          "Roles de franquiciado / franquiciante y áreas de responsabilidad"
+        ]
+      },
+      {
+        "title": "Estructura operativa",
+        "description": "Describo cómo está organizado el negocio: funciones, roles, interacción del equipo — para que quede claro quién responde por qué y cómo se transfieren las tareas.",
+        "bullets": [
+          "Estructura operativa y matriz de responsabilidades",
+          "Hoja de ruta de sistematización y prioridades",
+          "Consultoría sobre el uso de documentos terminados"
+        ]
+      }
+    ]
+  },
+  "WorkFormats": {
+    "kicker": "Formatos · Work formats",
+    "title": "Formatos de",
+    "titleHighlight": "colaboración",
+    "subtitle": "Según las necesidades del negocio, puedo trabajar de forma puntual en procesos específicos o construir de manera integral el sistema de conocimiento y estándares de la empresa.",
+    "whatIncluded": "Qué puede incluir",
+    "result": "Resultado",
+    "pricingNote": "El alcance y la inversión se definen de forma individual después de conocer las necesidades del negocio.",
+    "items": [
+      {
+        "title": "Sistematización de procesos puntuales",
+        "description": "Indicado cuando hay que documentar un área concreta del negocio.",
+        "bullets": [
+          "procedimientos",
+          "instructivos",
+          "responsabilidades por cargo",
+          "listas de verificación",
+          "estándares de trabajo",
+          "adaptación de empleados"
+        ],
+        "result": "El equipo obtiene herramientas claras para el trabajo diario."
+      },
+      {
+        "title": "Sistematización integral del negocio",
+        "description": "Para empresas que quieren reducir la dependencia de la participación diaria del dueño.",
+        "bullets": [
+          "documentación de procesos de negocio",
+          "estructura operativa",
+          "base de conocimiento",
+          "procedimientos e instructivos",
+          "estándares de interacción",
+          "sistema de transferencia de conocimiento"
+        ],
+        "result": "El negocio se vuelve más manejable y predecible."
+      },
+      {
+        "title": "Preparación del negocio para escalar",
+        "description": "Para empresas que planean crecer, abrir nuevos puntos o desarrollar franquicias.",
+        "bullets": [
+          "empaquetado de la experiencia del dueño",
+          "estandarización de procesos",
+          "descripción del modelo operativo",
+          "documentación de franquicia",
+          "preparación del sistema de transferencia de conocimiento"
+        ],
+        "result": "Surge una base para escalar sin perder calidad."
+      }
+    ]
+  },
+  "Process": {
+    "kicker": "03 · How I work",
+    "title": "Cómo se desarrolla el",
+    "titleHighlight": "trabajo",
+    "subtitle": "Un proceso tranquilo y estructurado. Entregables claros en cada etapa. Me enfoco en metodología y documentos; la implementación completa en el equipo es responsabilidad del dueño — asesoro cuando hace falta.",
+    "stageResult": "Entregable de la etapa",
+    "items": [
+      {
+        "title": "Conocimiento y definición del alcance",
+        "description": "Revisamos contexto, objetivos y restricciones. Registro lo que hoy \"vive en la cabeza\" y defino los entregables necesarios.",
+        "result": "Brief claro, límites del proyecto y criterios de resultado."
+      },
+      {
+        "title": "Entrevistas y mapeo de procesos",
+        "description": "Entrevisto al dueño y personas clave, analizo documentos y práctica actual. El objetivo es identificar lo que ya funciona — no inventar procesos nuevos.",
+        "result": "Mapa de procesos, zonas de ambigüedad y prioridades de documentación."
+      },
+      {
+        "title": "Diseño de la estructura",
+        "description": "Describo cómo está organizado el negocio y cómo debe operar: roles, responsabilidades, lógica de transferencia de tareas y puntos de control.",
+        "result": "Estructura objetivo y plan de sistematización."
+      },
+      {
+        "title": "Desarrollo de procedimientos, instructivos y base de conocimiento",
+        "description": "Creo documentos que se puedan usar: procedimientos, instructivos, listas de verificación, estructura de base de conocimiento. Para el trabajo diario — no para el archivo.",
+        "result": "Entregables listos para transferir al equipo."
+      },
+      {
+        "title": "Consultoría sobre el uso del sistema",
+        "description": "Si hace falta, asesoro en la implementación: ayudo a entender los documentos desarrollados y oriento al dueño y al equipo en su uso.",
+        "result": "Comprensión del sistema y claridad sobre cómo trabajar con él."
+      }
+    ]
+  },
+  "Results": {
+    "kicker": "04 · Results",
+    "title": "Qué obtiene el dueño",
+    "items": [
+      {
+        "label": "Conocimiento documentado",
+        "details": "La experiencia y los estándares quedan en procedimientos, instructivos y base de conocimiento — no en la cabeza del dueño."
+      },
+      {
+        "label": "Procesos claros",
+        "details": "El equipo sabe qué hacer y qué se considera un resultado correcto."
+      },
+      {
+        "label": "Un sistema transferible",
+        "details": "Nuevas personas, socios y franquiciados reciben documentos — no instrucciones verbales."
+      }
+    ]
+  },
+  "Cases": {
+    "kicker": "05 · Cases",
+    "title": "Ejemplos de",
+    "titleHighlight": "proyectos reales",
+    "subtitle": "Casos anónimos de la práctica — el desafío, lo realizado y el resultado para el dueño.",
+    "filters": {
+      "all": "Todos los proyectos",
+      "franchises": "Franquicias",
+      "coffee": "Cafeterías",
+      "beauty": "Salones de belleza",
+      "services": "Negocios de servicios"
+    },
+    "labels": {
+      "case": "Caso",
+      "situation": "Situación inicial",
+      "done": "Lo realizado",
+      "result": "Resultado"
+    },
+    "items": [
+      {
+        "title": "Red de estudios de danza y pole dance",
+        "situation": "El negocio crecía con fuerza, pero gran parte del conocimiento y los procesos operativos existían solo en la cabeza del dueño. La capacitación de nuevos empleados era verbal, lo que generaba diferencias de calidad entre sucursales.",
+        "done": [
+          "entrevistas realizadas con el dueño",
+          "documentados los procesos de negocio clave",
+          "desarrollados instructivos de cargo",
+          "creados estándares de atención al cliente",
+          "estructurado el sistema de adaptación y capacitación",
+          "preparada la base de conocimiento para escalar"
+        ],
+        "result": "El dueño obtuvo un sistema claro de transferencia de conocimiento, redujo la dependencia de su participación personal y creó una base para seguir creciendo."
+      },
+      {
+        "title": "Franquicia estadounidense de servicios de mudanza",
+        "situation": "Era necesario estructurar los procesos existentes para transferirlos a socios y asegurar un estándar único de operación.",
+        "done": [
+          "realizado análisis de procesos actuales",
+          "documentados estándares de interacción con clientes",
+          "desarrollados instructivos para empleados",
+          "creados procedimientos de trabajo del equipo",
+          "construido sistema de transferencia de conocimiento para nuevos socios"
+        ],
+        "result": "El negocio obtuvo estándares operativos unificados y herramientas para escalar sin perder calidad de servicio."
+      },
+      {
+        "title": "Franquicia estadounidense de servicios de reparación",
+        "situation": "La empresa se preparaba para expandirse y necesitaba sistematizar procesos internos.",
+        "done": [
+          "realizadas entrevistas con los dueños",
+          "documentadas etapas clave de prestación del servicio",
+          "desarrollados procedimientos e instructivos",
+          "estructurada la información operativa",
+          "preparados materiales para nuevos participantes del sistema"
+        ],
+        "result": "Los dueños recibieron un sistema de trabajo transparente y usable para escalar el negocio."
+      },
+      {
+        "title": "Salones de belleza y estudios de masaje corporal",
+        "situation": "Con el crecimiento del negocio surgió la necesidad de estandarizar el trabajo del personal y asegurar una experiencia uniforme para el cliente.",
+        "done": [
+          "desarrolladas listas de verificación",
+          "creados instructivos de cargo",
+          "descritos procesos de adaptación del personal",
+          "definidos estándares de prestación de servicios",
+          "preparados procedimientos internos"
+        ],
+        "result": "Apareció un sistema unificado de trabajo del equipo, se redujo la dependencia de empleados específicos y mejoró la previsibilidad del servicio."
+      },
+      {
+        "title": "Cafeterías y proyectos de servicios",
+        "situation": "Los dueños necesitaban una base de conocimiento estructurada para abrir nuevos puntos y capacitar al personal.",
+        "done": [
+          "documentados procesos de apertura",
+          "preparados instructivos y estándares",
+          "sistematizados requisitos para el personal",
+          "creados documentos internos de la empresa"
+        ],
+        "result": "El negocio obtuvo herramientas para escalar y transferir experiencia a nuevos empleados y gerentes."
+      }
+    ]
+  },
+  "About": {
+    "kicker": "06 · About",
+    "title": "Llevo el negocio",
+    "titleHighlight": "de la cabeza al sistema",
+    "subtitle": "Consultoría en metodología y sistematización de negocios. Capturo conocimiento, procesos y estándares en documentos que puede entregar al equipo, socios o franquiciados.",
+    "advantageLabel": "Ventaja clave",
+    "advantageTitle": "Extracción del conocimiento de la cabeza del dueño",
+    "advantageText": "El trabajo comienza con entrevistas. No invento procesos — identifico los que ya funcionan y los traduzco a procedimientos, instructivos y base de conocimiento.",
+    "principlesLabel": "Principios",
+    "principles": [
+      {
+        "title": "Identifico, no invento",
+        "description": "Documento el trabajo real, no un modelo ajeno."
+      },
+      {
+        "title": "Los documentos son herramientas",
+        "description": "Breves, claros, pensados para el uso diario."
+      },
+      {
+        "title": "Límites claros",
+        "description": "Metodología y documentos; la implementación es responsabilidad del dueño."
+      }
+    ]
+  },
+  "Experience": {
+    "kicker": "07 · Experience",
+    "title": "Experiencia y proyectos",
+    "subtitle": "30+ proyectos en distintos rubros — desde estudios hasta franquicias estadounidenses.",
+    "projectsLabel": "Proyectos",
+    "projectsCount": "30+",
+    "projectsText": "Sistematización para equipos y redes — procesos, procedimientos, bases de conocimiento.",
+    "roleLabel": "Rol",
+    "roleTitle": "Líder de equipo del departamento de metodología",
+    "roleText": "Entrevistas con dueños, documentación de procesos, desarrollo de documentos.",
+    "niches": [
+      "cafeterías",
+      "estudios y salones",
+      "proyectos educativos",
+      "servicios",
+      "empresas de construcción",
+      "franquicias estadounidenses"
+    ]
+  },
+  "Cta": {
+    "kicker": "08 · CTA",
+    "title": "Conversemos su proyecto",
+    "text": "Revisamos por dónde empezar la sistematización — con calma y sin presión. Use el formulario o escríbame por Telegram / email.",
+    "portraitAlt": "Maria Chernova — metodología y sistematización de negocios"
+  },
+  "Faq": {
+    "kicker": "09 · FAQ",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Se encarga de la implementación?",
+        "answer": "Mi foco es el sistema, los procesos y los documentos. Asesoro sobre el uso de los materiales. La implementación completa es un trabajo aparte."
+      },
+      {
+        "question": "¿Cuánto dura el trabajo?",
+        "answer": "De unos días a varias semanas — según el alcance y la escala."
+      },
+      {
+        "question": "¿Con qué rubros trabaja?",
+        "answer": "Cafeterías, salones, educación, servicios, franquicias estadounidenses y otros negocios de servicios."
+      },
+      {
+        "question": "¿Qué recibiré como resultado?",
+        "answer": "Procedimientos, instructivos, estándares y procesos documentados — un sistema que puede transferir al equipo."
+      },
+      {
+        "question": "¿Se puede trabajar de forma remota desde cualquier país?",
+        "answer": "Sí. Trabajo con empresas en todo el mundo — de forma remota, sin importar el país ni la zona horaria."
+      }
+    ]
+  },
+  "ContactForm": {
+    "kicker": "10 · Contact",
+    "title": "Conversemos",
+    "titleHighlight": "su proyecto",
+    "subtitle": "Cuénteme un poco sobre su negocio y sus prioridades actuales. Le responderé en un plazo de 24 horas.",
+    "labels": {
+      "name": "Nombre",
+      "telegramWhatsApp": "Telegram / WhatsApp",
+      "businessNiche": "Rubro del negocio",
+      "whatNeedsSystematization": "Qué necesita sistematizar"
+    },
+    "placeholders": {
+      "name": "Por ejemplo, María",
+      "telegramWhatsApp": "@usuario / +52…",
+      "businessNiche": "Por ejemplo, cafetería / salón / franquicia",
+      "whatNeedsSystematization": "Brevemente: qué procesos documentar, qué frena la delegación, qué quiere transferir al equipo."
+    },
+    "submit": "Conversemos su proyecto",
+    "submitting": "Enviando…",
+    "error": {
+      "title": "No se pudo enviar la solicitud",
+      "text": "Inténtelo de nuevo en un momento o escriba directamente por Telegram."
+    },
+    "success": {
+      "kicker": "Solicitud recibida",
+      "title": "Gracias. Me pondré en contacto en un plazo de 24 horas.",
+      "text": "También puede escribir por Telegram o abrir un correo con los detalles de su solicitud — así coordinamos la conversación más rápido.",
+      "openEmail": "Abrir correo",
+      "writeTelegram": "Escribir por Telegram"
+    },
+    "sidebar": {
+      "telegram": {
+        "title": "Telegram",
+        "text": "Si le resulta más cómodo, puede escribir directamente por Telegram.",
+        "button": "@mchernovaa"
+      },
+      "whatHappensNext": {
+        "title": "Qué sigue",
+        "step1": "Leeré su mensaje y haré 2–3 preguntas de aclaración si hace falta.",
+        "step2": "Revisaremos qué procesos conviene documentar primero y acordaremos el formato de trabajo.",
+        "step3": "Trabajo con empresas en todo el mundo — de forma remota, sin importar el país ni la zona horaria."
+      },
+      "email": {
+        "title": "Email",
+        "address": "m.chernova734@gmail.com"
+      }
+    }
+  },
+  "Footer": {
+    "brand": "Maria Chernova · metodología y sistematización de negocios",
+    "description": "Sistematización de negocios: documentación de procesos, procedimientos, instructivos, base de conocimiento y preparación para escalar. Trabajo de forma remota con empresas en todo el mundo.",
+    "tagline": "De la experiencia en la cabeza — a un sistema que puede transferir",
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "copyright": "Todos los derechos reservados",
+    "remoteNote": "Remoto en todo el mundo",
+    "navLinks": {
+      "services": "Servicios",
+      "formats": "Formatos",
+      "process": "Cómo trabajo",
+      "experience": "Experiencia",
+      "cases": "Casos",
+      "faq": "FAQ",
+      "contact": "Contacto"
+    },
+    "contactInfo": "Telegram: @mchernovaa\nEmail: m.chernova734@gmail.com\nRemoto en todo el mundo"
+  },
+  "StickyNav": {
+    "ariaLabel": "Navegación por secciones",
+    "items": {
+      "problems": "Desafíos del negocio",
+      "services": "Servicios",
+      "process": "Cómo se desarrolla el trabajo",
+      "results": "Resultados",
+      "cases": "Casos",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "faq": "FAQ",
+      "contact": "Contacto"
+    }
+  },
+  "NotFound": {
+    "kicker": "Página no encontrada",
+    "title": "404",
+    "text": "Parece que siguió un enlace incorrecto. Vuelva a la página principal.",
+    "home": "Ir al inicio"
+  },
+  "Schema": {
+    "name": "Consultoría de negocios: sistemas operativos y escalamiento",
+    "description": "Ayudo a construir el sistema operativo del negocio: procedimientos, instructivos de cargo, documentación de procesos, KPI y marcos de control, bases de conocimiento, manuales de franquicia y preparación para escalar.",
+    "serviceType": "Sistematización de procesos de negocio, procedimientos, KPI, bases de conocimiento, estructura operativa, franquicias",
+    "jobTitle": "Metodología y sistematización de negocios",
+    "offers": [
+      "Diagnóstico del sistema operativo",
+      "Desarrollo de procedimientos y procesos",
+      "KPI y base de conocimiento"
+    ],
+    "contactAction": "Solicitar revisión del sistema"
+  },
+  "LeadLinks": {
+    "subject": "Consulta: conversar proyecto de sistematización",
+    "header": "Nueva consulta desde el sitio:",
+    "fields": {
+      "name": "Nombre",
+      "telegramWhatsApp": "Telegram/WhatsApp",
+      "businessNiche": "Rubro del negocio",
+      "whatNeedsSystematization": "Qué necesita sistematizar",
+      "utm": "UTM"
+    }
+  }
+}

@@ -1,48 +1,23 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 
-const faqs = [
-  {
-    question: "Вы занимаетесь внедрением?",
-    answer:
-      "Основной фокус — система, процессы и документы. Консультирую по использованию материалов. Полноценное внедрение — отдельно."
-  },
-  {
-    question: "Сколько длится работа?",
-    answer:
-      "От нескольких дней до нескольких недель — зависит от объёма и масштаба."
-  },
-  {
-    question: "С какими нишами вы работаете?",
-    answer:
-      "Кофейни, салоны, образование, услуги, американские франшизы и другие service-бизнесы."
-  },
-  {
-    question: "Что я получу в результате?",
-    answer:
-      "Регламенты, инструкции, стандарты и описанные процессы — систему, которую можно передать команде."
-  },
-  {
-    question: "Работаете ли вы только в Аргентине?",
-    answer: "Нет. Buenos Aires — офлайн, worldwide — удалённо."
-  }
-];
+type FaqItem = { question: string; answer: string };
 
 export function Faq() {
+  const t = useTranslations("Faq");
+  const faqs = t.raw("items") as FaqItem[];
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section
-      id="faq"
-      className="section smooth-anchor border-b border-divider/60 bg-canvas"
-    >
+    <section id="faq" className="section smooth-anchor bg-canvas">
       <div className="container-page">
         <Reveal>
           <div className="max-w-3xl">
-            <p className="section-kicker">09 · FAQ</p>
-            <h2 className="section-heading">Часто задаваемые вопросы</h2>
+            <p className="section-kicker">{t("kicker")}</p>
+            <h2 className="section-heading">{t("title")}</h2>
           </div>
         </Reveal>
 
@@ -56,15 +31,15 @@ export function Faq() {
                   <button
                     type="button"
                     onClick={() => setOpenIndex(isOpen ? null : index)}
-                    className="flex w-full items-start justify-between gap-4 text-left"
+                    className="flex min-h-[44px] w-full items-start justify-between gap-3 py-1 text-left sm:gap-4"
                     aria-expanded={isOpen}
                   >
-                    <span className="font-display text-xl font-bold tracking-tight text-amberRetro">
+                    <span className="font-display text-lg font-bold leading-snug tracking-tight text-amberRetro sm:text-xl">
                       {item.question}
                     </span>
                     <span
                       className={[
-                        "mt-1 shrink-0 text-xl leading-none text-ink-muted transition-transform duration-200",
+                        "inline-flex h-11 w-11 shrink-0 items-center justify-center text-xl leading-none text-ink-muted transition-transform duration-200",
                         isOpen ? "rotate-45" : "rotate-0"
                       ].join(" ")}
                       aria-hidden="true"

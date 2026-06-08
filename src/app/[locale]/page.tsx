@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/Hero";
 import { SocialProofStrip } from "@/components/layout/SocialProofStrip";
 import { BusinessProblems } from "@/components/sections/BusinessProblems";
@@ -11,38 +12,35 @@ import { Experience } from "@/components/sections/Experience";
 import { Cta } from "@/components/sections/Cta";
 import { Faq } from "@/components/sections/Faq";
 import { ContactForm } from "@/components/sections/ContactForm";
-import { CalendlyEmbed } from "@/components/sections/CalendlyEmbed";
 import { MobileStickyCta } from "@/components/layout/MobileStickyCta";
-import { EditorialRule } from "@/components/ui/EditorialRule";
+import { routing, type Locale } from "@/i18n/routing";
 
-export default function HomePage() {
+type Props = {
+  params: { locale: string };
+};
+
+export default function HomePage({ params: { locale } }: Props) {
+  if (!routing.locales.includes(locale as Locale)) {
+    return null;
+  }
+
+  setRequestLocale(locale);
+
   return (
     <>
       <Hero />
       <SocialProofStrip />
-      <EditorialRule />
       <BusinessProblems />
-      <EditorialRule />
       <Services />
-      <EditorialRule />
       <WorkFormats />
-      <EditorialRule />
       <Process />
-      <EditorialRule />
       <Results />
-      <EditorialRule />
       <Cases />
-      <EditorialRule />
       <About />
-      <EditorialRule />
       <Experience />
-      <EditorialRule />
       <Cta />
-      <EditorialRule />
       <Faq />
-      <EditorialRule />
       <ContactForm />
-      <CalendlyEmbed />
       <MobileStickyCta />
     </>
   );

@@ -6,6 +6,8 @@ export type LeadPayload = {
   utmSource?: string;
   utmMedium?: string;
   utmCampaign?: string;
+  utmTerm?: string;
+  utmContent?: string;
 };
 
 declare global {
@@ -28,7 +30,9 @@ export function getLeadUtmFromLocation() {
   return {
     utmSource: safeTrim(params.get("utm_source")),
     utmMedium: safeTrim(params.get("utm_medium")),
-    utmCampaign: safeTrim(params.get("utm_campaign"))
+    utmCampaign: safeTrim(params.get("utm_campaign")),
+    utmTerm: safeTrim(params.get("utm_term")),
+    utmContent: safeTrim(params.get("utm_content"))
   };
 }
 

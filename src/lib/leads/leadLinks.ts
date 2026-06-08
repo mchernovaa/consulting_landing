@@ -3,19 +3,31 @@ import type { LeadPayload } from "@/lib/analytics/track";
 const telegramUrl = "https://t.me/mchernovaa";
 const email = "m.chernova734@gmail.com";
 
-function buildMessage(payload: LeadPayload) {
+export type LeadLinkLabels = {
+  header: string;
+  subject: string;
+  fields: {
+    name: string;
+    telegramWhatsApp: string;
+    businessNiche: string;
+    whatNeedsSystematization: string;
+    utm: string;
+  };
+};
+
+function buildMessage(payload: LeadPayload, labels: LeadLinkLabels) {
   const lines = [
-    "Новая заявка с сайта:",
+    labels.header,
     "",
-    `Имя: ${payload.name}`,
-    `Telegram/WhatsApp: ${payload.telegramWhatsApp}`,
-    `Ниша бизнеса: ${payload.businessNiche}`,
+    `${labels.fields.name}: ${payload.name}`,
+    `${labels.fields.telegramWhatsApp}: ${payload.telegramWhatsApp}`,
+    `${labels.fields.businessNiche}: ${payload.businessNiche}`,
     "",
-    "Что нужно систематизировать:",
+    `${labels.fields.whatNeedsSystematization}:`,
     payload.whatNeedsSystematization,
     "",
     payload.utmSource || payload.utmMedium || payload.utmCampaign
-      ? "UTM:"
+      ? labels.fields.utm + ":"
       : "",
     payload.utmSource ? `utm_source: ${payload.utmSource}` : "",
     payload.utmMedium ? `utm_medium: ${payload.utmMedium}` : "",
@@ -25,14 +37,16 @@ function buildMessage(payload: LeadPayload) {
   return lines.join("\n");
 }
 
-export function buildTelegramDeepLink(payload: LeadPayload) {
-  const text = encodeURIComponent(buildMessage(payload));
+export function buildTelegramDeepLink(
+  payload: LeadPayload,
+  labels: LeadLinkLabels
+) {
+  const text = encodeURIComponent(buildMessage(payload, labels));
   return `${telegramUrl}?text=${text}`;
 }
 
-export function buildMailtoLink(payload: LeadPayload) {
-  const subject = encodeURIComponent("Заявка: обсудить задачу по систематизации");
-  const body = encodeURIComponent(buildMessage(payload));
+export function buildMailtoLink(payload: LeadPayload, labels: LeadLinkLabels) {
+  const subject = encodeURIComponent(labels.subject);
+  const body = encodeURIComponent(buildMessage(payload, labels));
   return `mailto:${email}?subject=${subject}&body=${body}`;
 }
-
