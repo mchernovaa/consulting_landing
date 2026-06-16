@@ -28,6 +28,7 @@ export default function HomePage({ params: { locale } }: Props) {
 
   return (
     <>
+      {/* <!-- trigger redeploy --> */}
       <Hero />
       <SocialProofStrip />
       <BusinessProblems />
