@@ -29,6 +29,7 @@ export default function HomePage({ params: { locale } }: Props) {
   return (
     <>
       {/* <!-- trigger redeploy --> */}
+      {/* redeploy after environment variables update */}
       <Hero />
       <SocialProofStrip />
       <BusinessProblems />
